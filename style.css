@@ -1,0 +1,88 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+/* Header input button*/
+
+.row-one {
+    background-color: #3a86ff;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.row-one h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.row-one #input-convert {
+    width: 110px;
+    height: 76px;
+    border: 2px solid #d6ccc2;
+    border-radius: 5px;
+    background-color: inherit;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.row-one #btn-convert {
+    width: 118px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Main Results */
+.row-two {
+    background-color: #1b263b;
+    padding: 35px 0;
+
+}
+
+.row-two .unit-field {
+    background: #023047;
+    border-radius: 5px 0 0 0;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.row-two h2 {
+    color: #bbd0ff;
+    font-size: 20px;
+}
+.row-two p {
+    color: whitesmoke;
+    font-size: 15px;
+}
+footer {
+    padding: 10px;
+    background-color: #dee2e6;
+    color: #14213d;
+}

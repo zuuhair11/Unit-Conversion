@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Cormorant+SC:wght@300&family=Happy+Monkey&family=Ibarra+Real+Nova:wght@600&family=Merriweather:ital,wght@1,300&family=Orbitron:wght@400;800&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
+        <title>Unit Converter</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- First header -->
+            <div class="row-one">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input type="text" id="input-convert">
+                <button id="btn-convert">Convert</button>
+            </div>
+
+            <!-- Main -->
+            <div class="row-two">
+                <div class="unit-field" >
+                    <h2>Length (Meter/Feet)</h2>
+                    <p id="meter-field"></p>
+                </div>
+                <div class="unit-field" >
+                    <h2>Volume (Liters/Gallons)</h2>
+                    <p id="volume-field"></p>
+                </div>
+                <div class="unit-field" >
+                    <h2>Mass (Kilograms/Pounds)</h2>
+                    <p id="mass-field"></p>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <p>Copyright&copy; by Zouhair 20:05</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
